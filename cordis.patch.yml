@@ -1,0 +1,5 @@
+# dsh-token-usage bundle patch: mount the plugin row into the dsh profile tree.
+# Install via `dsh plugin --profile web add dsh-token-usage` (or local tarball).
+- insert:
+    - id: token-usage
+      name: dsh-token-usage

@@ -1,0 +1,48 @@
+{
+  "name": "dsh-token-usage",
+  "version": "0.1.14",
+  "description": "DeepSeek Harness (DSH) token usage & cost statistics plugin: per-model/per-session token accounting with official CNY pricing (peak/off-peak), range filters, multi-provider balance queries, and a modern settings dashboard.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./client": {
+      "default": "./lib/client.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings-general"
+      ],
+      "platform": "web"
+    }
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "plugin",
+    "token",
+    "usage",
+    "stats",
+    "cost",
+    "balance",
+    "peak"
+  ],
+  "license": "MIT"
+}
