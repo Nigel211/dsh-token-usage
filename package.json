@@ -1,6 +1,6 @@
 {
   "name": "dsh-token-usage",
-  "version": "0.1.14",
+  "version": "0.1.15",
   "description": "DeepSeek Harness (DSH) token usage & cost statistics plugin: per-model/per-session token accounting with official CNY pricing (peak/off-peak), range filters, multi-provider balance queries, and a modern settings dashboard.",
   "type": "module",
   "main": "lib/index.js",
