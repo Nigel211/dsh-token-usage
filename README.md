@@ -35,9 +35,9 @@ DeepSeek Harness (DSH) 的 **Token 用量与费用统计插件**:零第三方依
 dsh plugin --profile web add github:Nigel211/dsh-token-usage
 ```
 
-(指定版本:`github:Nigel211/dsh-token-usage#v0.1.14`)
+(指定版本:`github:Nigel211/dsh-token-usage#v0.1.15`)
 
-或本地 tarball:`dsh plugin --profile web add ./dsh-token-usage-0.1.14.tgz`
+或本地 tarball:`dsh plugin --profile web add ./dsh-token-usage-0.1.15.tgz`
 
 装完**重启 dsh web 服务**后生效。
 
